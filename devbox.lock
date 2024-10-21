@@ -1,0 +1,182 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "binutils@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#binutils",
+      "source": "devbox-search",
+      "version": "2.42",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/60bvv1fcqi01n70z5fxg5pyiyf5b12x4-binutils-wrapper-2.42",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/gz7sd52q0x83ny9zfrj69ad13x3gl26c-binutils-wrapper-2.42-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/fx1q9337wpxyfh334cpa9n599xx4fz05-binutils-wrapper-2.42-info"
+            }
+          ],
+          "store_path": "/nix/store/60bvv1fcqi01n70z5fxg5pyiyf5b12x4-binutils-wrapper-2.42"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/10yx22wk9pisky9n4apvj62gccpihjyz-binutils-wrapper-2.42",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/3cmdgd8c51kcvf11qqvv265hj75gpgan-binutils-wrapper-2.42-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/j8lawlfvzq18z99f2k4vm6dhijl21zja-binutils-wrapper-2.42-info"
+            }
+          ],
+          "store_path": "/nix/store/10yx22wk9pisky9n4apvj62gccpihjyz-binutils-wrapper-2.42"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1mqpmzy3k2kv1g9zj5ig7hpgl28j3sa8-binutils-wrapper-2.42",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/734n591ibih9lr0pcy5sskavgafvx1nb-binutils-wrapper-2.42-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/ibn424z2s8wpnbf3wxq4m8vdn3dr6g7p-binutils-wrapper-2.42-info"
+            }
+          ],
+          "store_path": "/nix/store/1mqpmzy3k2kv1g9zj5ig7hpgl28j3sa8-binutils-wrapper-2.42"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b74nxf0yn2dzha02mgdxyklaqjaijzqp-binutils-wrapper-2.42",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/cp3kfwsyn7vj3xirr3mrwhsp3gj8drqp-binutils-wrapper-2.42-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/pmlng2906f2dh7g0s7v63vajk53s3zw8-binutils-wrapper-2.42-info"
+            }
+          ],
+          "store_path": "/nix/store/b74nxf0yn2dzha02mgdxyklaqjaijzqp-binutils-wrapper-2.42"
+        }
+      }
+    },
+    "gradle@latest": {
+      "last_modified": "2024-09-12T02:28:40Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/111ed8812c10d7dc3017de46cbf509600c93f551#gradle",
+      "source": "devbox-search",
+      "version": "8.10",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/61170qk70z4crhbcd426i0psczpsiryg-gradle-8.10",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/61170qk70z4crhbcd426i0psczpsiryg-gradle-8.10"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i2qacqh3c503d9cxzfaprc55sbr26q6m-gradle-8.10",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/i2qacqh3c503d9cxzfaprc55sbr26q6m-gradle-8.10"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pjgyb964cp2hk3zk4claps5v4cxbn5w5-gradle-8.10",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pjgyb964cp2hk3zk4claps5v4cxbn5w5-gradle-8.10"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x3sypmdvnfc371qdrwqrh1haf3h8iw76-gradle-8.10",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/x3sypmdvnfc371qdrwqrh1haf3h8iw76-gradle-8.10"
+        }
+      }
+    },
+    "jdk@latest": {
+      "last_modified": "2024-10-06T12:21:13Z",
+      "resolved": "github:NixOS/nixpkgs/50b3bd3fed0442bcbf7f58355e990da84af1749d#jdk8",
+      "source": "devbox-search",
+      "version": "8u412-ga",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hsxa3rqx0vdwbz352ni18wqn5zawvk0x-openjdk-8u412-ga",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/x0bvxfzygcfy7hfm3h10m7njdgrl5xyf-openjdk-8u412-ga-debug"
+            },
+            {
+              "name": "jre",
+              "path": "/nix/store/x1b33yizrg00ivskifcwz752qrdpm5db-openjdk-8u412-ga-jre"
+            }
+          ],
+          "store_path": "/nix/store/hsxa3rqx0vdwbz352ni18wqn5zawvk0x-openjdk-8u412-ga"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rb5iwvk2r54y4hbzxdvxfnfg65rma8gd-openjdk-8u412-ga",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/1rhfqsbzfmxaxafvqk4vhcfzs423s2pa-openjdk-8u412-ga-debug"
+            },
+            {
+              "name": "jre",
+              "path": "/nix/store/kb41c4clzp8c6lr55cwylhjk826zw7if-openjdk-8u412-ga-jre"
+            }
+          ],
+          "store_path": "/nix/store/rb5iwvk2r54y4hbzxdvxfnfg65rma8gd-openjdk-8u412-ga"
+        }
+      }
+    }
+  }
+}
