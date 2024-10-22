@@ -1,13 +1,17 @@
 package dev.webbe.queue;
 
 import dev.webbe.task.Task;
+import lombok.Data;
 
-public class Queue implements QueueInterface {
+@Data public class DistributedQueue implements QueueInterface {
 
     public Task task;
+    public String connectString;
+    public String path;
 
-    public Queue(Task task) {
-        this.task = task;
+    public DistributedQueue(String connectString, String path) {
+        this.connectString = connectString;
+        this.path = path;
     }
 
     @Override
@@ -23,6 +27,5 @@ public class Queue implements QueueInterface {
     @Override
     public int size() {
         throw new UnsupportedOperationException("Unimplemented method 'size'");
-    }
-    
+    }    
 }

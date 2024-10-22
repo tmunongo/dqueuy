@@ -1,8 +1,9 @@
 package dev.webbe.task;
 
 import java.util.Map;
+import lombok.Data;
 
-public class Task {
+@Data public class Task {
     String id;
     String type;
     int port;
@@ -24,6 +25,14 @@ public class Task {
     }
 
     public String toJson() {
-        return "";
+        throw new UnsupportedOperationException("Unimplemented method 'toJson'");
+    }
+
+    public static Task fromJson(String jsonString) {
+        throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
+    }
+
+    public int getResult() {
+        throw new UnsupportedOperationException("Unimplemented method 'getResult'");
     }
 }
