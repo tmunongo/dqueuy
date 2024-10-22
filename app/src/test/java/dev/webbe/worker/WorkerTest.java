@@ -5,6 +5,9 @@ import dev.webbe.queue.QueueInterface;
 import dev.webbe.task.Task;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
+
+import java.util.Map;
+
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 

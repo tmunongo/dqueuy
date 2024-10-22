@@ -1,11 +1,11 @@
 package dev.webbe.master;
 
+import dev.webbe.worker.WorkerNode;
+import org.apache.curator.test.TestingServer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class MasterNode {
-    
-}
+import static org.junit.jupiter.api.Assertions.*;
 
 class MasterNodeTest {
 
