@@ -19,7 +19,7 @@ class MasterNodeTest {
     }
 
     @Test
-    void testAddWorker() throws Exception {
+    void testAddWorker() {
         WorkerNode worker = new WorkerNode("worker1", zkTestServer.getConnectString());
         masterNode.addWorker(worker);
         assertEquals(1, masterNode.getWorkers().size());
@@ -27,7 +27,7 @@ class MasterNodeTest {
     }
 
     @Test
-    void testRemoveWorker() throws Exception {
+    void testRemoveWorker() {
         WorkerNode worker = new WorkerNode("worker1", zkTestServer.getConnectString());
         masterNode.addWorker(worker);
         masterNode.removeWorker(worker);

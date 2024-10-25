@@ -11,12 +11,11 @@ import org.apache.curator.test.TestingServer;
 
 
 class DistributedQueueTest {
-    private TestingServer zkTestServer;
     private DistributedQueue queue;
 
     @BeforeEach
     void setUp() throws Exception {
-        zkTestServer = new TestingServer();
+        TestingServer zkTestServer = new TestingServer();
         queue = new DistributedQueue(zkTestServer.getConnectString(), "/tasks");
     }
 

@@ -3,6 +3,7 @@ package dev.webbe.worker;
 import dev.webbe.queue.DistributedQueue;
 import dev.webbe.queue.QueueInterface;
 import dev.webbe.task.Task;
+import dev.webbe.task.TaskStatus;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
@@ -28,7 +29,7 @@ class WorkerTest {
         workerThread.join();
 
         verify(mockQueue, times(2)).dequeue();
-        assertEquals(Task.TaskStatus.COMPLETED, mockTask.getStatus());
+        assertEquals(TaskStatus.COMPLETED, mockTask.getStatus());
     }
 
     @Test
